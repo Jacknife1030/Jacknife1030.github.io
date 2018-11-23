@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="tubiao.jpg">
+
+    <title>win</title>
+
+    <!-- Bootstrap -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">博客</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">博客页</a></li>
+            <li><a href="#">预留</a></li>
+            <li><a href="index.html">返回</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container bs-docs-container" >
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div  class="jumbotron" >
+          <h1>Windows开发环境安装配置</h1>
+          <p>Windows 中安装设置Windows环境, 需要两个步骤:</p>
+          <ol>
+            <li><a href="#jdk">下载安装配置JDK</a></li>
+            <li><a href="#eclipse">下载安装配置开发环境Eclipse</a></li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <h2 id="jdk"  class="page-header">下载安装配置JDK</h2>
+
+        <h3>1. 用浏览器访问 http://www.oracle.com 网站, 选择Java开发工具下载:</h3>
+        <p><img class="img-responsive" src="images/win/1.png"></p>
+        <h3>2. 选择下载Java:</h3>
+        <p><img class="img-responsive" src="images/win/2.png"></p>
+        <h3>3. 接受软件许可协议以后, 下载JDK安装包:</h3>
+        <p><img class="img-responsive" src="images/win/3.png"></p>
+        <h3>4. 执行JDK安装包, 选择多次"下一步"完成安装:</h3>
+        <p><img class="img-responsive" src="images/win/4.png"></p>
+
+        <h3>5. 安装后, 到Program Files\Java 文件夹查看安装情况:</h3>
+        <p><img class="img-responsive" src="images/win/5.png"></p>
+        <h3>6. 在"电脑"属性中配置JDK:</h3>
+        <p><img class="img-responsive" src="images/win/6.png"></p>
+        <h3>7. 选择 "高级系统设置": </h3>
+        <p><img class="img-responsive" src="images/win/7.png"></p>
+        <h3>8. 点击 "高级" -> "环境变量":</h3>
+        <p><img class="img-responsive" src="images/win/8.png"></p>
+        <h3>9. 增加 JAVA_HOME 环境变量, 其值指向JDK的安装目录: </h3>
+        <p><img class="img-responsive" src="images/win/9.png"></p>
+        <h3>10. 修改Path环境变量, 在值中增加"JDK安装目录\bin":</h3>
+        <p><img class="img-responsive" src="images/win/10.png"></p>
+        <h3>11. 增加环境变量 CLASSPATH, 其值是英文点 ".":</h3>
+        <p><img class="img-responsive" src="images/win/11.png"></p>
+
+ 
+        <h2 id="eclipse" class="page-header">下载安装配置开发环境Eclipse</h2>
+        <h3>1. 用浏览器访问 http://www.eclipse.org 下载Eclipse: </h3>
+        <p><img class="img-responsive" src="images/win/e1.png"></p>
+
+        <h3>2. 进入下载页面,下载Java EE版本的Eclipse: </h3>
+        <p><img class="img-responsive" src="images/win/e2.png"></p>
+
+        <h3>3. 在下载镜像选择页面, 点击 Download 即可:</h3>
+        <p><img class="img-responsive" src="images/win/e3.png"></p>
+
+        <h3>4. Eclipse会自动开始下载: </h3>
+        <p><img class="img-responsive" src="images/win/e4.png"></p>
+
+        <h3>5. Eclipse是绿色软件, 没有安装过程, 释放zip包即可: </h3>
+        <p><img class="img-responsive" src="images/win/e5.png"></p>
+
+        <h3>6. 进入eclipse文件夹, 双击eclipse.exe, 就可以执行Eclipse程序: </h3>
+        <p><img class="img-responsive" src="images/win/e6.png"></p>
+        <h3>7. Good Luck! 
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+
